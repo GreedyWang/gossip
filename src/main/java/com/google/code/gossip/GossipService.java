@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
 import com.google.code.gossip.event.GossipListener;
 import com.google.code.gossip.manager.GossipManager;
 import com.google.code.gossip.manager.random.RandomGossipManager;
+import org.apache.log4j.PropertyConfigurator;
 
 /**
  * This object represents the service which is responsible for gossiping with other gossip members.
